@@ -3132,7 +3132,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_Walter5),
     },
-
+//ALEX CHAPLIN
     [TRAINER_SIDNEY] =
     {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -3144,7 +3144,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY | AI_SCRIPT_SETUP_FIRST_TURN,
         .party = ITEM_CUSTOM_MOVES(sParty_Sidney),
     },
-
+//VEHS MUM
     [TRAINER_PHOEBE] =
     {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -3156,7 +3156,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Phoebe),
     },
-
+//PIA
     [TRAINER_GLACIA] =
     {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -3168,7 +3168,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Glacia),
     },
-
+//PIPPA
     [TRAINER_DRAKE] =
     {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -3180,7 +3180,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Drake),
     },
-
+//JADE
     [TRAINER_ROXANNE_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -3192,7 +3192,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Roxanne1),
     },
-
+//KAY
     [TRAINER_BRAWLY_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -3204,7 +3204,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Brawly1),
     },
-
+//JIMMY
     [TRAINER_WATTSON_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -3216,19 +3216,19 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Wattson1),
     },
-
+//TOOTS
     [TRAINER_FLANNERY_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_FLANNERY,
-        .trainerName = _("FLANNERY"),
+        .trainerName = _("TOOTITO"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Flannery1),
     },
-
+//VEH
     [TRAINER_NORMAN_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -3240,7 +3240,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_Norman1),
     },
-
+//ZACH
     [TRAINER_WINONA_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -3252,7 +3252,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY | AI_SCRIPT_RISKY,
         .party = ITEM_CUSTOM_MOVES(sParty_Winona1),
     },
-
+//BROOKE
     [TRAINER_TATE_AND_LIZA_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -3260,11 +3260,11 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
         .trainerName = _("TATE&LIZA"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION},
-        .doubleBattle = TRUE,
+        .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = ITEM_CUSTOM_MOVES(sParty_TateAndLiza1),
     },
-
+//RY
     [TRAINER_JUAN_1] =
     {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -4980,7 +4980,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Beck),
     },
-
+//BOB THE DRAG QUEEN
     [TRAINER_YASU] =
     {
         .trainerClass = TRAINER_CLASS_NINJA_BOY,

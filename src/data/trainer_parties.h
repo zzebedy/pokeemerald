@@ -3473,7 +3473,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_BODY_SLAM, MOVE_ATTRACT}
     }
 };
-
+//VEH
 static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
